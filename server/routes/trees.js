@@ -151,7 +151,7 @@ router.put('/trees/:id', (req, res, next) => {
     req.body.name,
     req.body.location,
     req.body.height,
-    req.body.groundcircumference,
+    req.body.size,
     req.body.id
   ]
 
